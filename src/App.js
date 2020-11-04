@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { v4 as uuidv4 } from "uuid";
-import Form from "./components/Form";
-import ContactList from "./components/ContactList";
-import SearchInput from "./components/SearchInput";
-import Alert from "./components/Alert";
+import Form from "./components/Form/Form";
+import ContactList from "./components/ContactList/ContactList";
+import SearchInput from "./components/SearchInput/SearchInput";
+import Alert from "./components/Alert/Alert";
 import { CSSTransition } from "react-transition-group";
-import AlertAnimation from "./components/AlertAnimation.module.css";
+import AlertAnimation from "./components/Alert/AlertAnimation.module.css";
 import styled from "styled-components";
 uuidv4();
 

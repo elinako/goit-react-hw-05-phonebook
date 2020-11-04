@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import PropTypes, { string } from "prop-types";
+import PropTypes from "prop-types";
 import { CSSTransition } from "react-transition-group";
 import FormTitleAnimation from "./FormTitleAnimation.module.css";
 
